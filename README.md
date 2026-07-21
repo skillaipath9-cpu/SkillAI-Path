@@ -1,260 +1,247 @@
-# BharatMartDBX Phase 0: Foundation Data Analytics
+# SkillAI Path -- Phase 0: Foundation Data Analytics
 
-**5-Day Investigation Week Experience**
+## 5-Day Investigation Week Experience
 
-> "Real portfolio, real code reviews, real GitHub commits - not assignments, not grades."
+> **Real portfolio. Real code reviews. Real GitHub commits. Not
+> assignments. Not grades.**
 
----
+------------------------------------------------------------------------
 
-## 🚀 QUICK START
+# 🚀 Quick Start
 
-**STEP 1:** Review this README (5 minutes)  
-**STEP 2:** Navigate to `/2_Five_Day_Experience/` and open `StartHere` notebook  
-**STEP 3:** Complete 3 investigations by Friday
+1.  Read this README (5--10 minutes).
+2.  Open `/2_Five_Day_Experience/StartHere`.
+3.  Follow the notebook instructions.
+4.  Begin **Investigation 1 -- Portfolio Health Analysis**.
 
----
+------------------------------------------------------------------------
 
-## 🎯 WHAT THIS IS
+# 🎯 Program Overview
 
-**Scenario:** Legacy code from analytics team - 3 investigations, 75% complete.
+This Investigation Week simulates the workflow of a real analytics team.
 
-**Your Task:** Debug, extend, complete analysis, merge to dev branch.
+Instead of solving standalone exercises, participants work on an
+existing analytics project using Databricks, SQL, GitHub, and
+industry-standard development practices.
 
-**Timeline:** 5 days (Monday kickoff → Friday presentation)
+## Investigation Scenario
 
-**Outcome:** Real portfolio projects with industry-standard tooling.
+Imagine you've recently joined an analytics team.
 
----
+Your team has assigned you an existing analytics project that must be
+reviewed, understood, completed, validated, and prepared for delivery.
 
-## 📂 FOLDER STRUCTURE
+The investigation notebooks already include:
 
-```
+-   Business context
+-   Project requirements
+-   Existing SQL implementation
+-   Real analytical scenarios
+-   Debugging opportunities
+-   Areas requiring additional analysis and business interpretation
+
+Your responsibilities throughout the week are to:
+
+-   Understand the notebook implementation
+-   Review existing SQL logic
+-   Identify and resolve analytical issues
+-   Complete the remaining analysis
+-   Validate outputs
+-   Write business insights and recommendations
+-   Commit your work regularly to GitHub
+-   Submit the required project deliverables
+
+The objective is to complete all three investigations by following a
+real project workflow.
+
+------------------------------------------------------------------------
+
+# 📂 Repository Structure
+
+``` text
 0_Foundation_Data_Analytics/
-├── 1_Complete_Beginner/           # FREE entry point (optional)
-├── 2_Five_Day_Experience/          # Main program (START HERE)
-│   ├── StartHere                   # Orientation notebook
-│   ├── 1_Portfolio Health          # Investigation 1 (75% complete)
-│   ├── 2_Customer Risk             # Investigation 2 (75% complete)
-│   └── 3_Time Analysis             # Investigation 3 (75% complete)
-└── README.md                       # This file
+│
+├── 1_Complete_Beginner/
+│
+├── 2_Five_Day_Experience/
+│   ├── StartHere
+│   ├── 1_Portfolio_Health
+│   ├── 2_Customer_Risk
+│   └── 3_Time_Analysis
+│
+└── README.md
 ```
 
----
+Always start from:
 
-## 📅 5-DAY STRUCTURE
-
-### Monday 6 PM - Live Kickoff
-**You Receive:**
-- 3 investigation notebooks (75% solved reference code)
-- BharatMartDBX workspace access
-- GitHub repository setup
-- Discord progress channel access
-
-**Your Mission:**
-- Study legacy code
-- Extend analysis (25% completion work)
-- Commit changes
-- Post progress updates
-
-**Certification Requirement:**
-Complete all 3 cases, code merged to dev, portfolio ready by Friday.
-
----
-
-### Tuesday 6 PM - Genie Session
-**Instructor Demonstrates:**
-- Solving analysis with Genie AI
-- Notebook-based approach comparison
-
-**Optional Task:**
-Try Genie approach on your investigations.
-
----
-
-### Wednesday 6 PM - Dashboards Session
-**Instructor Demonstrates:**
-- Genie Space setup
-- Lakeview dashboard creation
-
-**Optional Task:**
-Add dashboards to your project (PR or screenshots).
-
----
-
-### Thursday 6 PM - Architecture Session
-**Instructor Teaches:**
-- Raw data → dims/facts identification
-- Medallion architecture principles
-- Live coding demonstration
-
-**Bonus Task (Not Required):**
-Build medallion architecture on dataset.
-
----
-
-### Friday 12 PM - Video Presentations
-**You Submit:**
-Video showcasing your 5-day work.
-
----
-
-### Friday 6 PM - "What After This?" + Sales Demo
-**Instructor Shows:**
-- Next modules (Phases 1-3)
-- Full BharatMartDBX program structure
-- Pricing and enrollment options
-
-**Your Decision:**
-Continue to Professional Track or complete Sprint only.
-
----
-
-## ✅ CERTIFICATION CRITERIA
-
-**Minimum Requirements (Earns Certificate):**
-```
-✅ Complete 3 investigation notebooks
-✅ Code merged to dev branch
-✅ Portfolio showcase ready
-✅ Posted on LinkedIn/community
+``` text
+2_Five_Day_Experience
+      ↓
+ StartHere Notebook
 ```
 
-**Bonus Enhancements (Optional):**
-```
-⭐ Genie Space setup
-⭐ Lakeview dashboard
-⭐ Medallion architecture
-```
+------------------------------------------------------------------------
 
-**Everyone who completes minimum requirements earns certification.**
+# 📅 5-Day Investigation Schedule
 
----
+  ------------------------------------------------------------------------
+  Day              Focus               Deliverable
+  ---------------- ------------------- -----------------------------------
+  **Monday**       Portfolio Health    Complete Investigation 1 & commit
+                   Investigation       changes
 
-## 📋 INVESTIGATION FILES (75% SOLVED)
+  **Tuesday**      Customer Risk       Complete Investigation 2 & commit
+                   Investigation       changes
 
-### 1. Portfolio Health Analysis
-**Dataset:** `workspace.edufin_small.loans`
+  **Wednesday**    Time Analysis       Complete Investigation 3 & submit
+                   Investigation       all investigations
 
-**What's Provided (75%):**
-- Business context
-- Data validation queries
-- Basic portfolio metrics
-- Risk concentration queries
+  **Thursday**     Genie AI Session    Learn AI-assisted analytics
+                                       workflow
 
-**Your Work (25%):**
-- Debug 2 intentional bugs
-- Add executive dashboard query
-- Write business interpretation
+  **Friday**       Dashboard Session & Dashboard (if instructed) + Video
+                   Final Presentation  Presentation
+  ------------------------------------------------------------------------
 
----
+------------------------------------------------------------------------
 
-### 2. Customer Risk Analysis
-**Dataset:** `workspace.edufin_small.loans`
+# 🔍 Investigation Overview
 
-**What's Provided (75%):**
-- Customer-level aggregation setup
-- Risk scoring framework
-- Segmentation queries
+## Investigation 1 -- Portfolio Health
 
-**Your Work (25%):**
-- Debug 2 intentional bugs
-- Complete risk classification
-- Generate recommendations
+Dataset:
 
----
-
-### 3. Time Analysis
-**Dataset:** `workspace.edufin_small.loans`
-
-**What's Provided (75%):**
-- Temporal pattern queries
-- Time-series setup
-- Basic trend analysis
-
-**Your Work (25%):**
-- Debug 2 intentional bugs
-- Add forecasting query
-- Analyze seasonal patterns
-
----
-
-## 🎯 PROGRESSION LEVELS
-
-**Level 1 (Certification):**
-All 3 cases solved, code merged.
-
-**Level 2 (Enhanced Portfolio):**
-Level 1 + Genie Space + Lakeview dashboards.
-
-**Level 3 (Advanced):**
-Level 2 + Medallion architecture.
-
-**Self-paced:** Some finish Level 1 in 3 days. Some reach Level 3 in 5 days.
-
----
-
-## 💼 AFTER THE EXPERIENCE
-
-### Professional Track Options:
-- **4-Month Track:** ₹35,000
-- **6-Month Track:** ₹75,000
-
-### Full BharatMartDBX Program:
-- **Phase 0:** Foundation Data Analytics (this module)
-- **Phase 1:** Data Platform Engineering
-- **Phase 2:** AI & MLOps Production
-- **Phase 3:** Business Intelligence
-
-### Program Outcomes:
-- 15-20 portfolio projects
-- Job placement support
-- 60-70% placement rate
-- ₹4-8 LPA starting salaries
-
----
-
-## 🔗 INTEGRATION WITH BHARATMARTDBX
-
-This module is **Phase 0** of the full journey:
-
-```
-Phase 0: Foundation Data Analytics (this module)
-Phase 1: Data Platform Engineering
-Phase 2: AI Production Platform
-Phase 3: Business Intelligence
-Phase 4+: Canvas & Lifecycle Management
+``` text
+workspace.edufin_small.loans
 ```
 
-**Modular deployment:** Students can take Phase 0 only (FREE) or continue to full program.
+Topics: - Business Understanding - Data Validation - Portfolio Metrics -
+Risk Concentration - Executive Insights - Business Interpretation
 
----
+------------------------------------------------------------------------
 
-## 📖 FOR INSTRUCTORS
+## Investigation 2 -- Customer Risk
 
-**Instructor Resources:**
-See `/Workspace/Shared/dev/BharatMartDBX/5_Lifecycle_Management/ExecutionLeads/Training_Sessions/`
-- INSTRUCTOR_PLAYBOOK.md
-- Investigation_Week_Solutions/ (complete reference solutions)
-- Investigation_Week_README.md (solution guide)
+Dataset:
 
-**Review Process:**
-- GitHub PR reviews
-- Discord check-ins
-- Live sessions (daily 6 PM)
-- Friday video presentations
+``` text
+workspace.edufin_small.loans
+```
 
----
+Topics: - Customer Aggregation - Risk Scoring - Segmentation - Risk
+Classification - Business Recommendations
 
-## 🎉 YOU'RE READY
+------------------------------------------------------------------------
 
-1. Open `/2_Five_Day_Experience/StartHere` notebook
-2. Read investigation instructions
-3. Start with Investigation 1: Portfolio Health
-4. Post progress in Discord
-5. Merge by Friday
+## Investigation 3 -- Time Analysis
 
----
+Dataset:
 
-**Last Updated:** 2026-07-20  
-**Owner:** SkillAI Path  
-**Contact:** tech@skillaipath.com
+``` text
+workspace.edufin_small.loans
+```
+
+Topics: - Time Series Analysis - Trend Analysis - Forecasting - Seasonal
+Analysis - Business Insights
+
+------------------------------------------------------------------------
+
+# ⚙️ Investigation Workflow
+
+For every investigation:
+
+1.  Read the business problem.
+2.  Understand the notebook structure.
+3.  Execute each section sequentially.
+4.  Review the existing SQL implementation.
+5.  Resolve analytical issues.
+6.  Complete the remaining analysis.
+7.  Validate outputs.
+8.  Document business insights.
+9.  Commit changes to GitHub.
+10. Continue to the next investigation.
+
+> **Important:** Understanding the business problem is as important as
+> writing SQL queries.
+
+------------------------------------------------------------------------
+
+# 💻 Tools
+
+-   Databricks Workspace
+-   SQL
+-   GitHub
+-   Discord / Graphy Community
+-   Genie AI (Thursday)
+-   Lakeview Dashboards (Friday)
+
+------------------------------------------------------------------------
+
+# 📤 Final Deliverables
+
+By Friday, submit:
+
+-   Investigation 1 -- Portfolio Health
+-   Investigation 2 -- Customer Risk
+-   Investigation 3 -- Time Analysis
+-   GitHub commits
+-   Video Presentation
+-   Dashboard (if instructed)
+
+------------------------------------------------------------------------
+
+# 🏆 Completion Criteria
+
+To successfully complete the Investigation Week:
+
+-   Complete all three investigations
+-   Follow the investigation workflow
+-   Submit all required deliverables
+-   Submit the final presentation video
+
+------------------------------------------------------------------------
+
+# 📚 Available Resources
+
+-   README
+-   StartHere Notebook
+-   Investigation Notebooks
+-   Live Sessions
+-   Discord / Graphy Community
+
+------------------------------------------------------------------------
+
+# ❓ Need Help?
+
+1.  Review the notebook instructions.
+2.  Verify previous outputs.
+3.  Ask in the community.
+4.  Join the live session.
+5.  Contact technical support if required.
+
+------------------------------------------------------------------------
+
+# ✅ Final Checklist
+
+-   [ ] README completed
+-   [ ] StartHere notebook completed
+-   [ ] Portfolio Health completed
+-   [ ] Customer Risk completed
+-   [ ] Time Analysis completed
+-   [ ] GitHub commits pushed
+-   [ ] Dashboard submitted (if instructed)
+-   [ ] Video presentation submitted
+
+------------------------------------------------------------------------
+
+# 📞 Contact
+
+**SkillAI Path**
+
+Technical Support
+
+tech@skillaipath.com
+
+------------------------------------------------------------------------
+
+**Last Updated:** 21 July 2026
