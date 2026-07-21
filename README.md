@@ -337,6 +337,7 @@ If you encounter any issues:
 4. Attend the live instructor sessions.
 5. Contact technical support if the issue persists.
 
+❓ Frequently Asked Questions (FAQ): [Link](https://www.notion.so/SkillAI-Path-FAQ-3a4b32f026d280dd97dde7524dff3654?source=copy_link)
 ---
 
 # ✅ Final Checklist
