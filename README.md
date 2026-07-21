@@ -187,7 +187,7 @@ Each investigation is designed around a realistic business scenario and focuses 
 **Dataset**
 
 ```text
-workspace.edufin_small.loans
+workspace.sap_dev.loans
 ```
 
 ### Topics Covered
@@ -210,7 +210,7 @@ A complete portfolio health assessment supported by meaningful business insights
 **Dataset**
 
 ```text
-workspace.edufin_national.loans
+workspace.sap_main.loans
 ```
 
 ### Topics Covered
@@ -232,7 +232,7 @@ A complete customer risk assessment with actionable recommendations.
 **Dataset**
 
 ```text
-workspace.edufin_national.loans
+workspace.sap_main.loans
 ```
 
 ### Topics Covered
