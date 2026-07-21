@@ -28,170 +28,356 @@ Make sure you have:
 
 ------------------------------------------------------------------------
 
-# 🗺️ Investigation Journey
+# 🎯 What is this Program?
 
-README ↓ StartHere Notebook ↓ Monday -- Portfolio Health ↓ Tuesday --
-Customer Risk ↓ Wednesday -- Time Analysis ↓ Thursday -- Genie AI
-Session ↓ Friday -- Dashboard + Video Presentation
+This program is designed to simulate the workflow of a real analytics team.
 
-------------------------------------------------------------------------
+Instead of solving assignments or practice exercises, participants work on an existing analytics project using industry-standard tools and processes.
 
-# 🎯 Program Overview
+Throughout the Investigation Week, participants will experience:
 
-This program simulates the workflow of a real analytics team.
+* Building a real portfolio project
+* Working with GitHub repositories and commits
+* Following a collaborative development workflow
+* Reviewing and improving existing analytics code
+* Solving business problems using SQL and Databricks
+* Preparing project deliverables similar to a production environment
 
-Instead of solving isolated exercises, participants work on an existing
-analytics project, understand the implementation, review SQL, resolve
-issues, complete the remaining business analysis, validate outputs,
-commit work to GitHub and prepare professional deliverables.
+## Investigation Scenario
 
-## Your Responsibilities
+Imagine you've recently joined an analytics team.
 
--   Understand notebook implementation
--   Review SQL logic
--   Resolve analytical issues
--   Complete remaining analysis
--   Validate outputs
--   Document business insights
--   Commit work to GitHub regularly
--   Submit final deliverables
+Your team has assigned you an existing analytics project that needs to be reviewed, completed, and prepared for delivery.
 
-------------------------------------------------------------------------
+The investigation notebooks already contain:
 
-# 📂 Repository Structure
+* Business context and project requirements
+* Existing SQL implementation
+* Real analytical scenarios
+* Debugging opportunities
+* Sections that require additional analysis and business interpretation
 
-``` text
+Your responsibilities during the Investigation Week are to:
+
+* Understand the existing notebook implementation
+* Identify and resolve analytical issues
+* Complete the remaining business analysis
+* Validate analytical outputs
+* Document business insights
+* Commit your work to GitHub throughout the week
+* Prepare the final investigation deliverables and presentation
+
+The objective is to complete all three investigations by following a real project workflow rather than solving isolated exercises.
+
+---
+
+# 📂 Folder Structure
+
+```text
 0_Foundation_Data_Analytics/
+│
 ├── 1_Complete_Beginner/
+│      Optional learning material for anyone who wants to strengthen fundamentals
+│
 ├── 2_Five_Day_Experience/
-│   ├── StartHere
-│   ├── 1_Portfolio_Health
-│   ├── 2_Customer_Risk
-│   └── 3_Time_Analysis
+│      ├── StartHere
+│      ├── 1_Portfolio_Health
+│      ├── 2_Customer_Risk
+│      └── 3_Time_Analysis
+│
 └── README.md
 ```
 
-Always start from **2_Five_Day_Experience → StartHere**.
+## Where Should You Start?
 
-------------------------------------------------------------------------
+Always begin from:
 
-# 📅 Five-Day Plan
+```text
+2_Five_Day_Experience
+        ↓
+     StartHere Notebook
+```
 
-  Day         Focus               Outcome
-  ----------- ------------------- ---------------------------------------
-  Monday      Portfolio Health    Investigation 1 completed & committed
-  Tuesday     Customer Risk       Investigation 2 completed & committed
-  Wednesday   Time Analysis       Investigation 3 completed & submitted
-  Thursday    Genie AI Session    Learn AI-assisted workflow
-  Friday      Dashboard + Video   Final submissions
+The **StartHere** notebook contains all the instructions required before beginning the investigations.
 
-------------------------------------------------------------------------
+---
+
+# 📅 5-Day Investigation Schedule
+
+## Monday — Portfolio Health Investigation
+
+You will receive:
+
+* Databricks Workspace Access
+* GitHub Repository Access
+* Investigation Notebooks
+* Discord/Graphy Community Access
+
+### Focus for the Day
+
+* Complete the initial project setup
+* Read the StartHere notebook
+* Complete **Investigation 1 – Portfolio Health Analysis**
+* Commit your progress to GitHub
+
+---
+
+## Tuesday — Customer Risk Investigation
+
+### Focus for the Day
+
+* Complete **Investigation 2 – Customer Risk Analysis**
+* Validate your analytical outputs
+* Push your latest GitHub commits
+* Resolve any pending investigation issues
+
+---
+
+## Wednesday — Time Analysis Investigation
+
+### Focus for the Day
+
+* Complete **Investigation 3 – Time Analysis**
+* Review all three investigations
+* Ensure every notebook is complete
+* Submit all investigation work by the end of the day
+
+---
+
+## Thursday — Genie AI Session
+
+Live instructor session covering:
+
+* Using Genie AI for analytics
+* AI-assisted investigation workflows
+* Notebook productivity techniques
+* Best practices for analytical problem solving
+
+Participants can compare manual and AI-assisted approaches using their completed investigations.
+
+---
+
+## Friday — Dashboard Session & Final Presentation
+
+Live session includes:
+
+* Genie Space overview
+* Lakeview Dashboard creation
+* Dashboard best practices
+
+### Final Deliverables
+
+* Dashboard submission (if instructed)
+* Video presentation demonstrating the completed investigations
+
+This marks the successful completion of the Investigation Week.
+
+---
 
 # 🔍 Investigation Overview
 
-1.  Portfolio Health --- portfolio metrics, validation, risk, business
-    insights.
-2.  Customer Risk --- segmentation, scoring, recommendations.
-3.  Time Analysis --- trends, forecasting, seasonality.
+During the Investigation Week, you will complete three business investigations.
 
-Dataset: `workspace.edufin_small.loans`
+Each investigation is designed around a realistic business scenario and focuses on solving analytical problems using SQL inside Databricks.
 
-------------------------------------------------------------------------
+---
 
-# ⚙️ Standard Workflow
+## Investigation 1 — Portfolio Health Analysis
 
-1.  Read business context.
-2.  Read notebook instructions.
-3.  Execute cells in order.
-4.  Understand SQL.
-5.  Resolve issues.
-6.  Complete analysis.
-7.  Validate outputs.
-8.  Write insights.
-9.  Commit to GitHub.
-10. Move to next investigation.
+**Dataset**
 
-------------------------------------------------------------------------
+```text
+workspace.edufin_small.loans
+```
 
-# 💻 Tools
+### Topics Covered
 
--   Databricks
--   SQL
--   GitHub
--   Discord/Graphy
--   Genie AI
--   Lakeview Dashboards
+* Business understanding
+* Data validation
+* Portfolio health metrics
+* Risk concentration analysis
+* Executive insights
+* Business interpretation
 
-------------------------------------------------------------------------
+### Expected Outcome
 
-# 📤 Deliverables
+A complete portfolio health assessment supported by meaningful business insights.
 
--   Investigation 1
--   Investigation 2
--   Investigation 3
--   GitHub commits
--   Dashboard (if instructed)
--   Video presentation
+---
 
-------------------------------------------------------------------------
+## Investigation 2 — Customer Risk Analysis
 
-# 💡 Success Tips
+**Dataset**
 
--   Read markdown before code.
--   Execute notebooks sequentially.
--   Commit frequently.
--   Validate every output.
--   Don't skip business interpretation.
+```text
+workspace.edufin_national.loans
+```
 
-------------------------------------------------------------------------
+### Topics Covered
 
-# ⚠️ Common Mistakes
+* Customer-level aggregation
+* Risk scoring
+* Customer segmentation
+* Risk classification
+* Business recommendations
 
--   Skipping StartHere
--   Running cells randomly
--   Ignoring notebook instructions
--   Waiting until Wednesday to commit
--   Forgetting final submission
+### Expected Outcome
 
-------------------------------------------------------------------------
+A complete customer risk assessment with actionable recommendations.
 
-# ❓ FAQ
+---
 
-**Can I finish early?** Yes.
+## Investigation 3 — Time Analysis
 
-**Can I complete multiple investigations in one day?** Yes.
+**Dataset**
 
-**Are dashboards always mandatory?** Only if instructed.
+```text
+workspace.edufin_national.loans
+```
 
-**What if GitHub fails?** Ask in the community.
+### Topics Covered
 
-**What if I miss a live session?** Follow the shared recording if
-available.
+* Time-series analysis
+* Trend analysis
+* Temporal patterns
+* Forecasting
+* Seasonal analysis
 
-------------------------------------------------------------------------
+### Expected Outcome
 
-# 🆘 Need Help?
+A complete time-based analytical report with business insights.
 
-Notebook issue → Re-read instructions → Search Discord → Ask instructor
-→ Contact support.
+---
 
-------------------------------------------------------------------------
+# 📌 Investigation Workflow
+
+Follow the same workflow for every investigation.
+
+### Step 1 : Read and understand the business problem.
+
+### Step 2
+
+Review the notebook structure before executing any queries.
+
+### Step 3
+
+Execute the notebook sequentially.
+
+### Step 4
+
+Understand the provided implementation and analytical logic.
+
+### Step 5
+
+Identify and resolve any issues encountered during the investigation.
+
+### Step 6
+
+Complete the remaining analysis and validate the outputs.
+
+### Step 7
+
+Document business insights and recommendations.
+
+### Step 8
+
+Commit your work to GitHub.
+
+### Step 9
+
+Proceed to the next investigation.
+
+> **Important:** Understanding the business context is just as important as writing SQL queries.
+
+---
+
+# 💻 Tools Used During the Investigation Week
+
+Participants will primarily work with:
+
+* Databricks Workspace
+* SQL
+* GitHub
+* Discord/Graphy Community
+* Genie AI (Thursday Session)
+* Lakeview Dashboards (Friday Session)
+
+---
+
+# 📤 Final Deliverables
+
+By the end of the Investigation Week, you should have completed:
+
+* ✅ Investigation 1 – Portfolio Health
+* ✅ Investigation 2 – Customer Risk
+* ✅ Investigation 3 – Time Analysis
+* ✅ GitHub commits pushed successfully
+* ✅ Final project work completed
+* ✅ Video presentation submitted
+* ✅ Dashboard submitted (if instructed)
+
+---
+
+# 🏆 Completion Criteria
+
+To successfully complete the Investigation Week, participants should:
+
+* Complete all three investigations
+* Follow the recommended investigation workflow
+* Submit all required project deliverables
+* Submit the final presentation video
+
+---
+
+# 📚 Available Resources
+
+Throughout the Investigation Week, make use of:
+
+* README
+* StartHere Notebook
+* Investigation Notebooks
+* Live Instructor Sessions
+* Discord/Graphy Community
+
+Always review the notebook instructions before seeking assistance.
+
+---
+
+# ❓Need Help?
+
+If you encounter any issues:
+
+1. Re-read the notebook instructions carefully.
+2. Verify previous notebook outputs.
+3. Ask questions in the Discord/Graphy community.
+4. Attend the live instructor sessions.
+5. Contact technical support if the issue persists.
+
+---
 
 # ✅ Final Checklist
 
--   [ ] README read
--   [ ] StartHere completed
--   [ ] Portfolio Health completed
--   [ ] Customer Risk completed
--   [ ] Time Analysis completed
--   [ ] GitHub commits pushed
--   [ ] Dashboard submitted (if required)
--   [ ] Video presentation submitted
+Before completing the Investigation Week, verify that you have:
 
-------------------------------------------------------------------------
+* ☐ Read the README
+* ☐ Completed the StartHere notebook
+* ☐ Completed Investigation 1 – Portfolio Health
+* ☐ Completed Investigation 2 – Customer Risk
+* ☐ Completed Investigation 3 – Time Analysis
+* ☐ Pushed your GitHub commits
+* ☐ Submitted the required dashboard (if instructed)
+* ☐ Submitted the final video presentation
+
+---
 
 # 📞 Contact
 
-SkillAI Path
+**SkillAI Path**
 
-tech@skillaipath.com
+**Technical Support**
+
+[tech@skillaipath.com](mailto:tech@skillaipath.com)
+
+---
+
+**Last Updated:** 21 July 2026
